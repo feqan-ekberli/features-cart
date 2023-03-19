@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #4d455d;
+    font-family: Arial, Tahoma;
+    display: flex ;
+    align-content: center;
+    justify-content: center;
+}
+
+.features {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+}
+
+.features .feat {
+    max-width: 350px;
+    padding: 17px 15px;
+    margin-top: 30px;
+    background-color: #FFF;
+    border-bottom: 2px solid #03A9F4
+}
+
+.features .feat span {
+    color: #FFF;
+    width: 45px;
+    height: 45px;
+    margin: 0 auto;
+    display: block;
+    font-size: 25px;
+    line-height: 45px;
+    margin-top: -44px;
+    border-radius: 50%;
+    background-color: #03A9F4;
+    border: 1px solid #03A9F4;
+}
+
+.features .feat h3 {
+    margin-bottom: 0;
+}
+
+.features .feat p {
+    color: #8D8D8D;
+    font-size: 13px;
+    line-height: 1.6;
+    margin-top: 8px;
+}
+
+.features .feat button {
+    border: none ;
+    border-radius: 6px;
+    padding: 8px 13px;
+    color: #FFF;
+    background-color: #03a9f4;
+}
+ .feat button:hover {
+    background-color: #4d455d !important ;
+    cursor: pointer;
+}
+
+.features .feat:nth-of-type(2) {
+    border-bottom: 2px solid #009688
+}
+
+.features .feat:nth-of-type(2) span {
+    background-color: #009688;
+    border: 1px solid #009688;
+}
+
+.features .feat:nth-of-type(2) button {
+    background-color: #009688;
+}
+
+.features .feat:nth-of-type(3) {
+    margin-right: 0;
+    border-bottom: 2px solid #FF5722;
+}
+
+.features .feat:nth-of-type(3) span {
+    background-color: #FF5722;
+    border: 1px solid #FF5722;
+}
+
+.features .feat:nth-of-type(3) button {
+    background-color: #FF5722;
+}
+
+.features .feat:nth-of-type(5) {
+    border-bottom: 2px solid #009688
+}
+
+.features .feat:nth-of-type(5) span {
+    background-color: #009688;
+    border: 1px solid #009688;
+}
+
+.features .feat:nth-of-type(5) button {
+    background-color: #009688;
+}
+
+
+@media  screen and (max-width: 960px) {
+    .features{
+        display: flex;
+        flex-wrap: wrap !important;
+    }
+}
